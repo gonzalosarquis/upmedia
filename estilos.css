@@ -545,6 +545,91 @@ footer{
     }
 }
 
+
+@media (min-width: 999px) and (max-width: 1366px){
+    .logo{
+		width: 60%;
+		padding: 10px;
+        margin-left: 20px;
+	}
+    .logo img{
+        justify-content: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .textoInicio h1{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .textoInicio p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .textoInicio a{
+        font-size: 12px;
+    }
+    .botonInicio{
+        margin-top: 50px;
+    }
+    .titulos{
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .linea img{
+        width: 5%;
+    }
+    .quehacemos{
+        margin-top: 60px;
+    }
+    .quehacemos img{
+        width: 50%;
+    }
+    .quehacemos h2{
+        font-size: 18px;
+    }
+    .quehacemos p{
+        font-size: 12px;
+    }
+    .logosClientes img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .glightbox img{
+        width: 60%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .gallery_product{
+        text-align: center;
+    }
+    .cajaDatos{
+        padding: 80px;
+    }
+    .cajaDatos h1{
+        font-size: 25px;
+    }
+    .cajaDatos h2{
+        font-size: 20px;
+    }
+    .nav_footer{
+        font-size: 15px;
+    }
+    .nav_footer p{
+        font-size: 15px;
+    }
+    footer{
+        padding: 60px;
+    }
+}
+
+
+
+
+
 @media (min-width: 1999px){
     .logo{
         width: 40%;

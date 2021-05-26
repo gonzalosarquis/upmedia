@@ -123,6 +123,22 @@ header{
     transition: 0.5s ease-in-out;
 }
 
+.cajaDatos{
+    background-color: #e72e4e;
+    padding: 150px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+}
+.cajaDatos h1{
+    color: white;
+    font-weight: 700;
+}
+.cajaDatos h2{
+    color: white;
+    font-weight: 700;
+}
 
 .ondas{
     width: 100%;
@@ -462,6 +478,21 @@ footer{
         font-weight: 400;
         margin-top: 15px;
         line-height : 25px;
+    }
+    .contenedorDatos{
+        margin-top: 50px;
+    }
+    .cajaDatos{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .cajaDatos h1,h2{
+        font-size: 25px;
     }
     .quehacemos{
         margin-top: 80px;
